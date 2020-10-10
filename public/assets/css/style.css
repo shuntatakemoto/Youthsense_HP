@@ -1,9 +1,105 @@
+/* ローディング画面  */
+#loading1{
+  transition: all 0.5s;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
 .top-logo img{
   width:50%;
+  padding-top: 60px;
 }
 .top-logo{
+  /* text-align: center; */
+}
+.logo_youthsense img{
+  padding-top: 300px;
+}
+.logo_youthsense{
   text-align: center;
 }
+/* Lサイズ */
+.lb_balloon{
+  position: absolute;
+  top:-250px;
+  left:-3%;
+}
+.motion_L img{
+  width:25%;
+}
+.ly_balloon{
+  position: absolute;
+  top:0px;
+  left:70%;
+}
+.motion_L img{
+  animation-name: motionY;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+/* Mサイズ */
+.mb_balloon{
+  position: absolute;
+  top:80px;
+  left:25%;
+}
+.motion_M img{
+  width:15%;
+}
+.mr_balloon{
+  position: absolute;
+  top:-20px;
+  left:70%;
+}
+.motion_M img{
+  animation-name: motionY;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+/* Sサイズ */
+.sr_balloon{
+  position: absolute;
+  top:80px;
+  left:25%;
+}
+.motion_S img{
+  width:5%;
+}
+.sy_balloon{
+  position: absolute;
+  top:80px;
+  left:55%;
+}
+.motion_S img{
+  animation-name: motionY;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/* ローディングアニメーション */
+@keyframes motionY {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(-200%);
+  }
+}
+/* ローディング終了 */
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+/* コンテンツ部分 */
 .top-logo2 img{
   width:100%;
+}
+/* コンテンツを隠す */
+.hidden{
+  opacity: 0;
+  visibility: hidden;
 }
