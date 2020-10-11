@@ -1,7 +1,7 @@
 /* ローディング画面  */
 #loading1{
   transition: all 0.5s;
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
@@ -10,23 +10,17 @@
   width:50%;
   padding-top: 60px;
 }
-.top-logo{
-  /* text-align: center; */
-}
 .logo_youthsense img{
   padding-top: 300px;
 }
 .logo_youthsense{
   text-align: center;
 }
-/* Lサイズ */
+/* Lサイズ 風船 */
 .lb_balloon{
   position: absolute;
   top:-250px;
   left:-3%;
-}
-.motion_L img{
-  width:25%;
 }
 .ly_balloon{
   position: absolute;
@@ -34,9 +28,22 @@
   left:70%;
 }
 .motion_L img{
+  width:25%;
   animation-name: motionY;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+/* Lサイズ 円 */
+.L_circle{
+  position: absolute;
+  top:0px;
+  left:25%;
+}
+.motion_L_C img{
+  width:25%;
+  animation-name: motionY;
+  animation-duration: 35s;
+  animation-iteration-count: infinite;
 }
 
 /* Mサイズ */
@@ -45,18 +52,29 @@
   top:80px;
   left:25%;
 }
-.motion_M img{
-  width:15%;
-}
 .mr_balloon{
   position: absolute;
   top:-20px;
   left:70%;
 }
 .motion_M img{
+  width:15%;
   animation-name: motionY;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+/* Mサイズ 円 */
+.M_circle{
+  position: absolute;
+  top:-200px;
+  left:0px;
+}
+.motion_M_C img{
+  width:100%;
+  animation-name: motionY;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
 }
 
 /* Sサイズ */
@@ -65,18 +83,28 @@
   top:80px;
   left:25%;
 }
-.motion_S img{
-  width:5%;
-}
 .sy_balloon{
   position: absolute;
   top:80px;
   left:55%;
 }
 .motion_S img{
+  width:8%;
   animation-name: motionY;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+/* Sサイズ 円 */
+.S_circle{
+  position: absolute;
+  top:300px;
+  left:0px;
+}
+.motion_S_C img{
+  width:100%;
+  animation-name: motionY;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
 }
 
 /* ローディングアニメーション */
