@@ -44,6 +44,7 @@
   animation-name: motionY;
   animation-duration: 35s;
   animation-iteration-count: infinite;
+  opacity: 0.9;
 }
 
 /* Mサイズ */
@@ -75,6 +76,7 @@
   animation-name: motionY;
   animation-duration: 30s;
   animation-iteration-count: infinite;
+  opacity: 0.9;
 }
 
 /* Sサイズ */
@@ -105,6 +107,7 @@
   animation-name: motionY;
   animation-duration: 25s;
   animation-iteration-count: infinite;
+  opacity: 0.9;
 }
 
 /* ローディングアニメーション */
