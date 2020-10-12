@@ -1,0 +1,10 @@
+.youthsense_header{
+  text-align: center;
+  border: solid;
+  border-width:0.5px;
+  border-color:#707070;
+  width:100%;
+}
+.youthsense_header img{
+  width:45%;
+}
