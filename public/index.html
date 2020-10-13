@@ -4,10 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
   <title>Youthsense_HP</title>
 </head>
 <body>
-  <!-- ローディング画面 -->
+  <!-- ローディング部分 -->
   <div class="top-logo" id="loading1">
     <div class="spinner">
       <div class="logo_youthsense">
@@ -41,9 +45,20 @@
     <div class="top-logo2">
       <img src="assets/img/menbers.jpeg" alt="">
     </div>
-    <!-- <iframe src="./header.html" width="100%" height=""></iframe> -->
   </div>
 
+<div id="cover"></div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+  <!--jQueryの読み込みの後に、以下のコードを追加 -->
+  <script>
+  // $('#hide').load('header.html');
+  $(function(){
+  $("#cover").load("header.html");
+});
+  </script>
+
   <script type="text/javascript" src="assets/js/loading.js"></script>
+  
 </body>
 </html>

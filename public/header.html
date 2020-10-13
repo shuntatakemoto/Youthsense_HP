@@ -7,10 +7,30 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="youthsense_header">
-    <div>
-      <img src="assets/img/youthsense_logo.svg" alt="">
+  <div class="dropdown">
+      <div class="dropdown__btn" id="dropdown__btn">
+        <img src="assets/img/youthsense_logo.svg" alt="">
+      </div>
+    <div class="youth_menu">
+      <div class="dropdown__list">
+        <li class="dropdown__item"><a href="" class="dropdown__item-link">top page</a></li>
+        <li class="dropdown__item"><a href="" class="dropdown__item-link">about us</a></li>
+        <li class="dropdown__item"><a href="" class="dropdown__item-link">history</a></li>
+      </div>
     </div>
   </div>
+
+  <div id="cover1"></div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+  <!--jQueryの読み込みの後に、以下のコードを追加 -->
+  <script>
+  // $('#hide').load('header.html');
+  $(function(){
+  $("#cover1").load("footer.html");
+});
+  </script>
+
+  <script type="text/javascript" src="assets/js/header.js"></script>
 </body>
 </html>
