@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 99;
 }
 .top-logo img{
   width:50%;
@@ -80,7 +80,7 @@
   left:0px;
 }
 .motion_M_C img{
-  width:100%;
+  width:108%;
   animation-name: motionY;
   animation-duration: 30s;
   animation-iteration-count: infinite;
@@ -113,7 +113,7 @@
   left:0px;
 }
 .motion_S_C img{
-  width:100%;
+  width:108%;
   animation-name: motionY;
   animation-duration: 25s;
   animation-iteration-count: infinite;
@@ -144,8 +144,7 @@
   opacity: 0;
   visibility: hidden;
 }
-#cover{
+.content{
   width:100%;
-  height: 500px;
-  z-index: 10000;
+  height:500px;
 }
