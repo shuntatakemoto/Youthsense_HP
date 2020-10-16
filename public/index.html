@@ -18,7 +18,7 @@
         <img src="assets/img/youth-logo.png" alt="">
       </div>
       <div class="motion_L">
-        <img src="assets/img/L_blue_balloon.svg" class="lb_balloon">
+        <a href="https://www.google.com/?hl=ja"><img src="assets/img/L_blue_balloon.svg" class="lb_balloon"></a>
         <img src="assets/img/L_yellow_balloon.svg" class="ly_balloon">
       </div>
       <div class="motion_L_C">
@@ -44,19 +44,30 @@
   <div class="content hidden"  id="hide">
     <div class="top-logo2">
       <img src="assets/img/menbers.jpeg" alt="">
+      <!-- <script type="text/javascript">header();</script> -->
     </div>
   </div>
 
-<div id="cover"></div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
   <!--jQueryの読み込みの後に、以下のコードを追加 -->
-  <script>
-  // $('#hide').load('header.html');
+  <!-- <script>
   $(function(){
-  $("#cover").load("header.html");
+  $("#hide").load("header.html");
 });
-  </script>
+  </script> -->
+
+<!-- <script>
+  function header(){
+    $.ajax({
+    url: "header.html",
+    cache: false,
+    success: function(html){
+    document.write(html);
+    }
+    });
+    }
+</script> -->
 
   <script type="text/javascript" src="assets/js/loading.js"></script>
   
