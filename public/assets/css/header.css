@@ -57,7 +57,7 @@
   display: block;
   z-index: 4;
   animation-name: fade-in;
-  animation-duration: 1s;
+  animation-duration: 0.4s;
 }
 .dropdown__btn.is-open::after {
   content: "";
