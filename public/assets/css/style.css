@@ -119,7 +119,9 @@
   animation-iteration-count: infinite;
   opacity: 0.9;
 }
-
+.last_motion{
+  
+}
 /* ローディングアニメーション */
 @keyframes motionY {
   from {
