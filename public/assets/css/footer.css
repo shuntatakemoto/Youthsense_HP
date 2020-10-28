@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+}
+.youthsense_footer{
+  width:100%;
+  background-color: #404040;
+}
+.youthsense_footer ul{
+  list-style: none;
+  color:white;
+  text-align: center;
+  padding-top: 40px;
+}
+.youthsense_footer ul li{
+  border:solid 0.5px white;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 0.9rem;
+}
+.list_1{
+  margin-bottom:20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.list_2{
+  margin-bottom:20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.list_3{
+  margin-bottom:35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.youthsense_copyright{
+  font-size: 0.1rem;
+  text-align: center;
+  color:white;
+  padding-bottom: 35px;
+}
