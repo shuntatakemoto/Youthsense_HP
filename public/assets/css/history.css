@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,li{
+    padding: 0;
+    margin: 0;
+}
+.history-title{
+    width: 236px;
+    height: 24px;
+    background-color: #000000;
+}
+.history-title h1{
+    font-size: 12px;
+    color:#fff;
+    text-align: center;
+}
+.history-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.history-content {
+    width: 92px;
+    height: 92px;
+    background-size: cover;
+}
+.coffee-icon{
+    background-image: url(../img/coffee-bg.jpg);
+}
+.web-icon{
+    background-image: url(../img/web-bg.jpg);
+}
+.media-icon{
+    background-image: url(../img/media-bg.jpg);
+}
+.goods-icon{
+    background-image: url(../img/goods-bg.jpg);
+}
+.guesthouse-icon{
+    background-image: url(../img/guesthouse-bg.jpg);
+}
+.career-icon{
+    background-image: url(../img/career-bg.jpg);
+}
+.history-content p {
+    color: #fff;
+    font-size: 18px;
+}
+
