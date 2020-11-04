@@ -2,6 +2,9 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
+    font-family: fot-tsukubrdgothic-std;
+    font-style: normal;
+    font-weight: 400;
 }
 h1,h2,h3,h4,h5,h6,ul,ol,li{
     padding: 0;
@@ -10,7 +13,9 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
 .history-title{
     width: 236px;
     height: 24px;
-    background-color: #000000;
+    background-color: #000;
+    padding-top: 3px;
+    margin: 26px 0 35px;
 }
 .history-title h1{
     font-size: 12px;
@@ -21,14 +26,20 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-left: 20px;
+    margin: 0 auto;
 }
 .history-content {
-    width: 92px;
-    height: 92px;
+    width: 90px;
+    height: 90px;
+    padding: 2px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     background-size: cover;
 }
 .coffee-icon{
     background-image: url(../img/coffee-bg.jpg);
+
 }
 .web-icon{
     background-image: url(../img/web-bg.jpg);
@@ -45,8 +56,38 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
 .career-icon{
     background-image: url(../img/career-bg.jpg);
 }
-.history-content p {
+.history-content-name {
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: bely;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+.episode-title, .episode-subtitle, br {
+    text-align: center;
+    font-size: 14px;
+}
+.episode-title {
+
+}
+.episode-block {
+    font-size: 13px;
 }
 
+
+
+
+
+
+
+
+
+img{
+    width: 50px;
+    height: 50px;
+}
+.plus-youth-image {
+    width: 290px;
+    height: 183px;
+}
