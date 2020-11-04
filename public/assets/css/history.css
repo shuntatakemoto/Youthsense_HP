@@ -38,23 +38,23 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
     background-size: cover;
 }
 .coffee-icon{
-    background-image: url(../img/coffee-bg.jpg);
+    background-image: url(../img/COFFEE.png);
 
 }
 .web-icon{
-    background-image: url(../img/web-bg.jpg);
+    background-image: url(../img/WEB.png);
 }
 .media-icon{
-    background-image: url(../img/media-bg.jpg);
+    background-image: url(../img/MEDIA.png);
 }
 .goods-icon{
-    background-image: url(../img/goods-bg.jpg);
+    background-image: url(../img/GOODS.png);
 }
 .guesthouse-icon{
-    background-image: url(../img/guesthouse-bg.jpg);
+    background-image: url(../img/SHAREHOUSE.png);
 }
 .career-icon{
-    background-image: url(../img/career-bg.jpg);
+    background-image: url(../img/CAREERSUPPORT.png);
 }
 .history-content-name {
     color: #fff;
@@ -73,6 +73,7 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
 }
 .episode-block {
     font-size: 13px;
+    
 }
 
 
