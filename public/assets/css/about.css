@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.img1 {
+    background-position: center;
+    margin: 5%;
+}
+
+.title1-1 {
+    background-color: black;
+    color: white;
+    margin: 0% 40% 0% 40%;
+}
+
+.title1-2 {
+    margin-top: 10%;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.border {
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    margin: 10% 25% 0% 25%;
+}
+
+.img2 {
+    background-position: center;
+}
+
+.sentence1 {
+    margin: 5%;
+}
+
+.img-left {
+    background-position: left;
+}
+
+.img-right {
+    background-position: right;
+}
+
+.url1 {
+    margin: 5% 15% 5% 15%;
+}
+
+.url1-1 {
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+}
+
+.url1-2 {
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+}
+
+.url1-3 {
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+}
