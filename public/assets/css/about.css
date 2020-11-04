@@ -5,7 +5,12 @@ body {
 
 .img1 {
     background-position: center;
-    margin: 5%;
+}
+
+.img1 img {
+    width: 50%;
+    margin-top: 20%;
+    margin-bottom: 15%;
 }
 
 .title1-1 {
@@ -31,6 +36,10 @@ body {
     background-position: center;
 }
 
+.img2 img {
+    width: 50%;
+}
+
 .sentence1 {
     margin: 5%;
 }
@@ -39,8 +48,18 @@ body {
     background-position: left;
 }
 
+.img-left img {
+    width: 50%;
+    margin-right: 25%;
+}
+
 .img-right {
     background-position: right;
+}
+
+.img-right img {
+    width: 50%;
+    margin-left: 25%;
 }
 
 .url1 {
