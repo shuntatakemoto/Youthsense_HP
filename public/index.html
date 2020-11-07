@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/top.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -45,34 +48,68 @@
   </div>
   <!-- コンテンツ部分 -->
   <div class="content hidden"  id="hide">
-    <div class="top-logo2">
-      <img src="assets/img/menbers.jpeg" alt="">
-      <!-- <script type="text/javascript">header();</script> -->
+    <header>
+      <div class="dropdown">
+          <div class="dropdown__btn" id="dropdown__btn">
+            <img src="assets/img/youthsense_logo.svg" alt="">
+          </div>
+        <div class="youth_menu">
+          <div class="dropdown__list">
+            <li class="dropdown__item"><a href="" class="dropdown__item-link">top page</a></li>
+            <li class="dropdown__item"><a href="" class="dropdown__item-link">about us</a></li>
+            <li class="dropdown__item"><a href="" class="dropdown__item-link">history</a></li>
+          </div>
+        </div>
+      </div>
+   </header>
+   <main>
+    <div class="img1">
+        <img src="assets/img/top-1.jpg" alt="">
     </div>
-  </div>
+    <div class="sentence1">
+        <img src="assets/img/トップ：ユース紹介文.svg" alt="">
+    </div>
+    <div class="url1">
+        <img src="assets/img/ユースの歴史について.svg" alt="">
+    </div>
+    <div class="title">
+        <img src="assets/img/next stage.svg" alt="">
+    </div>
+    <div class="img2">
+        <img src="assets/img/top-2.jpg" alt="">
+    </div>
+    <div class="sentence2">
+        <img src="assets/img/nextstage：文章.svg" alt="">
+    </div>
+    <div class="url2">
+        <a href="https://instagram.com/youthsense?igshid=1fdr8skx0eeza"><img src="assets/img/youthsense公式Instagramをチェック.svg" alt=""></a>
+    </div>
+    <div class="url3">
+        <a href="https://twitter.com/coffeeyouth?s=21"><img src="assets/img/youthsense公式twitterをチェック.svg" alt=""></a>
+    </div>
+    <div class="top-bottom-nav">
+        <ul>
+          <li class="list_1">about us</li>
+          <li class="list_2">history</li>
+          <li class="list_3">campfire</li>
+        </ul>
+      </div>
+    </main>
+  <footer>
+    <div class="youthsense_footer">
+        <ul>
+          <li class="list_1">home</li>
+          <li class="list_2" id="share">share</li>
+          <li class="list_3">about us</li>
+        </ul>
+        <p class="youthsense_copyright">Copyright ©2020 YOUTH SENSE All Rights Reserved.</p>
+      </div>
+  </footer>
+ </div>
 
-
+  <script type="text/javascript" src="assets/js/header.js"></script>
+  <script type="text/javascript" src="assets/js/share.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
-  <!--jQueryの読み込みの後に、以下のコードを追加 -->
-  <!-- <script>
-  $(function(){
-  $("#hide").load("header.html");
-});
-  </script> -->
-
-<!-- <script>
-  function header(){
-    $.ajax({
-    url: "header.html",
-    cache: false,
-    success: function(html){
-    document.write(html);
-    }
-    });
-    }
-</script> -->
-
   <script type="text/javascript" src="assets/js/loading.js"></script>
-  
 </body>
 </html>
