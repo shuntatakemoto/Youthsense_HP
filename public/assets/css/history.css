@@ -26,43 +26,16 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-left: 20px;
-    margin: 0 auto;
 }
 .history-content {
-    width: 90px;
-    height: 90px;
     padding: 2px;
     margin-right: 20px;
     margin-bottom: 20px;
     background-size: cover;
 }
-.coffee-icon{
-    background-image: url(../img/COFFEE.png);
-
-}
-.web-icon{
-    background-image: url(../img/WEB.png);
-}
-.media-icon{
-    background-image: url(../img/MEDIA.png);
-}
-.goods-icon{
-    background-image: url(../img/GOODS.png);
-}
-.guesthouse-icon{
-    background-image: url(../img/SHAREHOUSE.png);
-}
-.career-icon{
-    background-image: url(../img/CAREERSUPPORT.png);
-}
-.history-content-name {
-    color: #fff;
-    font-size: 20px;
-    font-family: bely;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
+.coffee-icon {
+    width: 24vw;
+    height: 13vh;
 }
 .episode {
 }
@@ -80,17 +53,16 @@ br {
 }
 .episode-block {
     font-size: 13px;
-    margin: 0 10%;
-
+}
+.episode-block p {
+    line-height: 1.5;
 }
 
-
-
-img{
-    width: 290px;
-    height: 220px;
-}
-.hare-image .plus-youth-image {
-    display: inline-block;
+.cafe-image, .media-image {
     text-align: center;
 }
+img {
+    width: 100px;
+    height: 100px;
+}
+
