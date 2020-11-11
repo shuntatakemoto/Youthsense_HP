@@ -1,39 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="history.css">
+    <link rel="stylesheet" href="assets/css/history.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <title>Document</title>
 </head>
+
+<header>
+    <div class="dropdown">
+        <div class="dropdown__btn" id="dropdown__btn">
+          <img src="assets/img/youthsense_logo.svg" alt="">
+        </div>
+      <div class="youth_menu">
+        <div class="dropdown__list">
+          <li class="dropdown__item"><a href="" class="dropdown__item-link">top page</a></li>
+          <li class="dropdown__item"><a href="" class="dropdown__item-link">about us</a></li>
+          <li class="dropdown__item"><a href="" class="dropdown__item-link">history</a></li>
+        </div>
+      </div>
+    </div>
+</header>
+
 <body>
-    <h1>History of YOUTH SENSE</h1>
-    <div>
-        <div>
-            <p>COFFEE</p>
+    <div class="history-container">
+        <div class="history-title">
+            <h1>History of YOUTH SENSE</h1>
         </div>
-        <div>
-            <p>WEB</p>
+        <div class="history-menu">
+            <div class="history-icon">
+                <div class="history-content coffee-icon">
+                    <div class="history-icon-bg-filter">
+                        <p>COFFEE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="history-icon">
+                <div class="history-content web-icon">
+                    <div class="history-icon-bg-filter">
+                        <p>WEB</p>
+                    </div>
+                </div>
+            </div>
+            <div class="history-icon">
+                <div class="history-content media-icon">
+                    <div class="history-icon-bg-filter">
+                        <p>MEDIA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="history-icon">
+                <div class="history-content goods-icon">
+                    <div class="history-icon-bg-filter">
+                        <p>GOODS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="history-icon">
+                <div class="history-content guesthouse-icon">
+                    <div class="history-icon-bg-filter">
+                        <p>GUEST HOUSE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="history-icon">
+                <div class="history-content career-icon">
+                    <div class="history-icon-bg-filter">
+                        <p>CAREER SUPPORT</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <p>MEDIA</p>
-        </div>
-        <div>
-            <p>GOODS</p>
-        </div>
-        <div>
-            <p>GUEST HOUSE</p>
-        </div>
-        <div>
-            <p>CAREER SUPPORT</p>
-        </div>
-    
     </div>
     
+    
     <div class="episode">
-        <h2 class="episode-title">Episode1 Coffee</h2>
-        <br>
+        <div class="episode-name">
+            <h2 class="episode-title">Episode1 Coffee</h2>
+        <hr>
         <h3 class="episode-subtitle">「コーヒーやろうぜ」</h3>
+        </div>
+        
         <div class="episode-block">
             <p>どうせ無理。</p>
             <p>もっと現実的になりなさい。</p>
@@ -43,7 +92,7 @@
         </div>
         
         <div class="episode-block">
-            <p>ひとりの<span>青年</span>>がいた。</p>
+            <p>ひとりの<span>青年</span>がいた。</p>
             <p>未来は明るいと信じてやまなかった。</p>
             <p>しかし、周りの友達はもうすでに、</p>
             <p>挑戦を諦め、考えることを辞めていた。</p>
@@ -61,14 +110,14 @@
             <p>キラキラした社会人との出会いが、</p>
             <p>若者に刺激を与えてくれる。</p>
         </div>
-        <div>
+        <div class="episode-block">
             <p>そのためには、まず僕が社会人と繋がろう。</p>
             <p>あれ、かっこいい大人って、</p>
             <p>コーヒーを飲んでるよな。</p>
         </div>
         <p class="episode-block">「コーヒーやろうぜ」</p>
-        <img src="" alt="">
-        <img src="" alt="">
+        <img src="assets/img/history-coffee1.jpg" alt="初期メンバー">
+        <img src="assets/img/history-coffee2.jpg" alt="二人を筆頭に">
 
         <div class="episode-block">
             <p>まずは、手作りのリヤカーでの移動販売。</p>
@@ -84,13 +133,18 @@
             <p>学生団体YOUTH SENSEは、</p>
             <p>着実に歩き始めた。</p>
         </div>
-
-        <img src="" alt="">
+        <div class="cafe-image">
+            <img src="assets/img/history-coffee3.jpg" alt="cafe初期メンバー">
+        </div>
     </div>
 
     <div class="episode">
-        <h2 class="episode-title">Episode2 Web</h2>
-        <h3 class="episode-subtitle">僕たちができることは？</h3>
+        <div class="episode-name">
+            <h2 class="episode-title">Episode2 Web</h2>
+            <hr>
+            <h3 class="episode-subtitle">僕たちができることは？</h3>
+        </div>
+        
         <div class="episode-block">
             <p>大きな一歩を踏み出した、</p>
             <p>ユースの中で次に結成されたのは、</p>
@@ -111,18 +165,19 @@
         </div>
 
         <p>youth tech twitter check</p>
-        <img src="" alt="">
+        <img src="assets/img/history-web.png" alt="集合写真">
 
     </div>
     
     <div class="episode">
         <h2 class="episode-title">Episode3 MEDIA</h2>
+        <hr>
         <h3 class="episode-subtitle">学生の力を、学生の力で届ける</h3>
         <div class="episode-block">
             <p>メンバーは徐々に増えていき、</p>
             <p>それぞれの得意なことも違っていた。</p>
         </div>
-        <div>
+        <div class="episode-block">
             <p>「夢追い人で溢れる鹿児島を創る」方法も、</p>
             <p>それぞれのやり方がある。</p>
             <p>直接コーヒーを手渡すのとはまた違う、</p>
@@ -134,19 +189,23 @@
             <p>面白おかしい企画をやってみたり。</p>
             <p>学生ならではの記事を届けた。</p>
         </div>
-
-        <a href=""><img src="" alt="plus-youth"></a>
-
+        <div class="media-image">
+            <a href="https://plus-youth.com/"><img class="plus-youth-image" src="assets/img/history-media_plus-youth.jpg" alt="plus-youth"></a>
+        </div>
+        
     </div>
 
     <div class="episode">
-        <h2 class="episode-title">Episode4 GOODS</h2>
-        <h3 class="episode-subtitle">僕たちができることは？</h3>
+        <div class="episode-name">
+            <h2 class="episode-title">Episode4 GOODS</h2>
+            <hr>
+            <h3 class="episode-subtitle">僕たちができることは？</h3>    
+        </div>
         <div class="episode-block">
             <p>ユースには、悪いところがある。</p>
             <p>メンバー皆がユースを好きすぎてしまうこと。</p>
         </div>
-        <div>
+        <div class="episode-block">
             <p>ユースのロゴも、このサイトも。</p>
             <p>すべてこの団体を思う気持ちから生まれた。</p>
         </div>
@@ -158,15 +217,19 @@
             <p>今日もユースは、</p>
             <p>誰かの愛で、生きている。</p>
         </div>
-
-        <img src="" alt="">
-        <img src="" alt="">
-
+        <div class="goods-image">
+            <img src="assets/img/history-goods1.jpg" alt="goodsできました">
+            <img src="assets/img/history-goods2.jpg" alt="goods販売開始">
+        </div>
+        
     </div>
 
     <div class="episode">
-        <h2 class="episode-title">Episode5 GUESTHOUSE</h2>
-        <h3 class="episode-subtitle">家族みたいな存在</h3>
+        <div class="episode-name">
+            <h2 class="episode-title">Episode5 GUESTHOUSE</h2>
+            <hr>
+            <h3 class="episode-subtitle">家族みたいな存在</h3>    
+        </div>
         <div class="episode-block">
             <p>はじまりは、</p>
             <p>ユースのメンバー数人で始めたシェアハウス。</p>
@@ -182,15 +245,18 @@
             <p>たくさんの仲間が泊まっていった。</p>
         </div>
 
-        <img src="" alt="">
-        <img src="" alt="">
+        <img src="assets/img/history-sharehouse1.png" alt="キッチンで団欒">
+        <img src="assets/img/history-sharehouse2.png" alt="屋上でバーベキュー">
 
     </div>
     
     <div class="episode">
-        <h2 class="episode-title">Episode6 CAREER SUPPORT</h2>
-        <h3 class="episode-subtitle">学生の悩みは、学生にしかわからない</h3>
-
+        <div class="episode-name">
+            <h2 class="episode-title">Episode6 CAREER SUPPORT</h2>
+            <hr>
+            <h3 class="episode-subtitle">学生の悩みは、学生にしかわからない</h3>
+        </div>
+        
         <div class="episode-block">
             <p>学生が夢をあきらめないように。</p>
             <p>自分の進路に満足できるように。</p>
@@ -212,9 +278,18 @@
             <p>八雲 CAREERという名前で活動している。</p>
         </div>
 
-        <img src="" alt="">
-        <img src="" alt="">
+        <img src="assets/img/history-career1.png" alt="自己探求型クエスト">
+        <img src="assets/img/history-career2.jpg" alt="youth-meshi">
     </div>
-
+<footer>
+    <div class="youthsense_footer">
+        <ul>
+          <li class="list_1">home</li>
+          <li class="list_2" id="share">share</li>
+          <li class="list_3">about us</li>
+        </ul>
+        <p class="youthsense_copyright">Copyright ©2020 YOUTH SENSE All Rights Reserved.</p>
+      </div>
+</footer>
 </body>
 </html>
