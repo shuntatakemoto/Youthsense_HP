@@ -17,12 +17,14 @@ body {
     background-color: black;
     color: white;
     margin: 0% 40% 0% 40%;
+    margin-bottom: 15%;
 }
 
 .title1-2 {
     margin-top: 10%;
-    font-size: small;
+    font-size: medium;
     font-weight: lighter;
+    margin-bottom: 15%
 }
 
 .border {
@@ -30,39 +32,95 @@ body {
     border-style: solid;
     border-color: black;
     margin: 10% 25% 0% 25%;
+    margin-bottom: 15%;
+    /* border:2% thin black;
+    margin-bottom: 15%; */
 }
 
 .img2 {
     background-position: center;
+    margin-bottom: 15%;
 }
 
 .img2 img {
-    width: 50%;
+    width: 80%;
 }
 
 .sentence1 {
     margin: 5%;
+    margin-bottom: 50%;
 }
 
-.img-left {
+.block1 {
+    line-height: 30%
+}
+
+.block2 {
+    line-height: 30%
+}
+
+.block3{
+    line-height: 30%;
+}
+
+.container {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    gap: 7%;
+}
+
+.img-left1 {
     background-position: left;
+    margin-bottom: 5%;
 }
 
-.img-left img {
-    width: 50%;
+.img-left1 img {
+    width: 75%;
     margin-right: 25%;
 }
 
-.img-right {
+.img-right1 {
     background-position: right;
+    margin-bottom: 3%;
 }
 
-.img-right img {
+.img-right1 img {
     width: 50%;
-    margin-left: 25%;
+    margin-left: 45%;
 }
 
-.url1 {
+.img-left2 {
+    background-position: left;
+    margin-bottom: 6%;
+}
+
+.img-left2 img {
+    width: 65%;
+    margin-right: 25%;
+}
+
+.img-right2 {
+    background-position: right;
+    margin-bottom: 5%;
+}
+
+.img-right2 img{
+    width: 90%;
+    margin-left: 10%;
+}
+
+.img-left3 {
+    background-position: left;
+    margin-bottom: 5%;
+}
+
+.img-left3 img {
+    width: 60%;
+    margin-right: 40%;
+}
+
+/* .url1 {
     margin: 5% 15% 5% 15%;
 }
 
@@ -82,4 +140,20 @@ body {
     border-width: thin;
     border-style: solid;
     border-color: black;
-}
+} */
+
+.list_1{
+    margin-bottom:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .list_2{
+    margin-bottom:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .list_3{
+    margin-bottom:35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
