@@ -52,22 +52,15 @@ body {
 }
 
 .block1 {
-    line-height: 30%
+    margin-bottom: 15%;
 }
 
 .block2 {
-    line-height: 30%
+    margin-bottom: 15%;
 }
 
 .block3{
-    line-height: 30%;
-}
-
-.container {
-    /* display: flex;
-    flex-direction: column; */
-    display: grid;
-    gap: 7%;
+    margin-bottom: 15%;
 }
 
 .img-left1 {
