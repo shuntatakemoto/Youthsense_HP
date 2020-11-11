@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
     margin: 26px 0 35px;
 }
 .history-title h1{
-    font-size: 12px;
+    font-size: 0.75rem;
     color:#fff;
     text-align: center;
 }
@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
     text-align: center;
 }
 .episode-title, .episode-subtitle {
-    font-size: 14px;
+    font-size: 0.85px;
 
 }
 .episode-title {
@@ -98,7 +98,7 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
 
 .episode-block {
     padding: 3px;
-    font-size: 13px;
+    font-size: 0,8rem;
     margin-bottom: 12px;
     text-align: center;
 }
@@ -112,7 +112,7 @@ span {
 .cafe-image, .media-image {
     text-align: center;
     width: 300px;
-    h300
+    height: 300px;
 }
 
 
