@@ -7,6 +7,7 @@
   background-color: #404040;
 }
 .youthsense_footer ul{
+  width:100%;
   list-style: none;
   color:white;
   text-align: center;
@@ -17,6 +18,10 @@
   margin-left: 10%;
   margin-right: 10%;
   font-size: 0.9rem;
+}
+.youthsense_footer ul li a{
+  text-decoration: none;
+  color:white;
 }
 .list_1{
   margin-bottom:20px;
