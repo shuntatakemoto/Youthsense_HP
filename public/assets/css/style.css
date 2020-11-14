@@ -150,7 +150,7 @@
 }
 
 
-.img1 img{
+.img1 .img1-2 img{
   width:68%;
   margin-left:-5%;
   margin-top: 40px;
@@ -205,6 +205,9 @@ header .pc-header{
   width: 65%;
   margin-left: 35%;
 }
+.img1-1 img{
+  display: none;
+}
 .top-bottom-nav{
   width:100%;
 }
@@ -236,7 +239,49 @@ header .pc-header{
   padding-bottom: 5px;
 }
 
-
+/* footer */
+.youthsense_footer{
+  width:100%;
+  background-color: #404040;
+}
+.youthsense_footer ul{
+  width:100%;
+  list-style: none;
+  color:white;
+  text-align: center;
+  padding-top: 40px;
+}
+.youthsense_footer ul li{
+  border:solid 0.5px white;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 0.9rem;
+}
+.youthsense_footer ul li a{
+  text-decoration: none;
+  color:white;
+}
+.list_1{
+  margin-bottom:20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.list_2{
+  margin-bottom:20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.list_3{
+  margin-bottom:35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.youthsense_copyright{
+  font-size: 0.1rem;
+  text-align: center;
+  color:white;
+  padding-bottom: 35px;
+}
 
 /* レスポンシブ（PC） */
 @media (min-width: 1000px)
@@ -259,12 +304,11 @@ header .pc-header{
   .img1{
     width:45%;
   }
-  .img1 img{
+  .img1 .img1-2 img{
     width:100%;
-    /* margin-left:-5%; */
     margin-top: 40px;
     margin-bottom: 40px;
-    box-shadow: 50px 50px 0px 0 rgb(255, 188, 32);
+    box-shadow: 4rem 4rem 0rem 0 rgb(255, 188, 32);
   }
   .sentence1 {
     /* width:45%; */
@@ -277,6 +321,24 @@ header .pc-header{
     display: block;
     width:50%;
     margin-left: 5%;
+  }
+  .sentence1-1 img{
+    width:20%;
+    margin-bottom: 6.5rem;
+    margin-left: 8%;
+  }
+  .sentence1-2 img{
+    width:70%;
+    margin-bottom: 8rem;
+    margin-left: 16%;
+  }
+  .sentence1-3 img{
+    width:100%;
+  }
+  .sentence1-4 img{
+    width:40%;
+    margin-top: 2.5rem;
+    margin-left: 60%;
   }
   header .pc-header{
     display: block;
@@ -312,10 +374,49 @@ header .pc-header{
   .url1{
     display: none;
   }
+  .title{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
   .title img{
     width:12%;
   }
   .img2 img{
     width:60%;
+  }
+  .img1-1 img{
+    display: block;
+  }
+  .sentence2 img{
+    width:25%;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+  }
+  .url2 a img{
+    width:25%;
+    margin-left: 70%;
+  }
+  .url3 a img{
+    width:25%;
+    margin-left: 70%;
+    margin-bottom: 5rem;
+  }
+  .youthsense_footer{
+    margin-top: 50px;
+    width:100%;
+    background-image: url(/Users/shuntatakemoto/Youthsense_HP/public/assets/img/pc-footer1.png);
+    background-size: cover;
+  }
+  .youthsense_footer ul li{
+    border:solid 0px white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.4rem;
+  }
+  .youthsense_copyright{
+    font-size: 0.8rem;
+    text-align: center;
+    color:white;
+    padding-bottom: 35px;
   }
 }
