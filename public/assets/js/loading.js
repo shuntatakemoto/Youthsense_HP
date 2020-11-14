@@ -5,8 +5,8 @@ var time = new Date().getTime();
 window.onload = function() {
 // ページを読み込んだあとまでの経過時間
   var now = new Date().getTime();
-  if (now-time<4000){
-    setTimeout('stopload()',4000-(now-time));
+  if (now-time<3000){
+    setTimeout('stopload()',3000-(now-time));
   } else{
     stopload();
   }
