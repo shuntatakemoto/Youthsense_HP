@@ -167,6 +167,9 @@ header .pc-header{
 .sentence1 img{
   width:100%;
 }
+.new-sentence1{
+  display: none;
+}
 .url1{
   margin-top: 35px;
 }
@@ -244,12 +247,27 @@ header .pc-header{
   .dropdown{
     display: none;
   }
+  .img1{
+    width:45%;
+  }
   .img1 img{
-    width:68%;
-    margin-left:-5%;
+    width:100%;
+    /* margin-left:-5%; */
     margin-top: 40px;
     margin-bottom: 40px;
     box-shadow: 50px 50px 0px 0 rgb(255, 188, 32);
+  }
+  .sentence1 {
+    /* width:45%; */
+    display: none;
+  }
+  .res-1{
+    display: flex;
+  }
+  .new-sentence1{
+    display: block;
+    width:50%;
+    margin-left: 5%;
   }
   header .pc-header{
     display: block;
@@ -260,20 +278,29 @@ header .pc-header{
     text-align: center;
   }
   .pc-header li img{
-    width:40%;
-    padding: 0.7rem;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:20%;
   }
   .pc-header li {
-    width:15%;
+    width:10%;
     list-style: none;
     font-size: 0.8rem;
-  }
-  .pc-header-list{
-    padding-top: 1.2rem;
   }
   .pc-header li a{
     color:white;
     text-decoration: none;
     font-weight:100 ;
+  }
+  .pc-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .url1{
+    display: none;
   }
 }
