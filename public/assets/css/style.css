@@ -161,6 +161,9 @@
 header .pc-header{
   display: none;
 }
+.pc-top-logo{
+  display: none;
+}
 .sentence1{
   margin-left: 35%; 
 }
@@ -241,11 +244,17 @@ header .pc-header{
   .top-logo{
     display: none;
   }
-  /* .logo_youthsense{
-    display: none;
-  } */
   .dropdown{
     display: none;
+  }
+  .pc-top-logo{
+    display: block;
+    text-align: center;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+  }
+  .pc-top-logo img{
+    width:20%;
   }
   .img1{
     width:45%;
@@ -302,5 +311,11 @@ header .pc-header{
   }
   .url1{
     display: none;
+  }
+  .title img{
+    width:12%;
+  }
+  .img2 img{
+    width:60%;
   }
 }
