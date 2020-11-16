@@ -150,14 +150,13 @@
 }
 header .dropdown{
   width: 100%;
-  /* height: 20rem; */
   position: fixed;
 }
 
 .img1 .img1-2 img{
   width:68%;
   margin-left:-5%;
-  margin-top: 5rem;
+  margin-top: 5.5rem;
   margin-bottom: 40px;
   box-shadow: 25px 25px 0px 0 rgb(255, 188, 32);
 }
@@ -394,14 +393,14 @@ header .pc-header{
   .sentence2 img{
     width:25%;
     margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 6rem;
   }
   .url2 a img{
-    width:25%;
+    width:20%;
     margin-left: 70%;
   }
   .url3 a img{
-    width:25%;
+    width:20%;
     margin-left: 70%;
     margin-bottom: 5rem;
   }
@@ -415,10 +414,10 @@ header .pc-header{
     border:solid 0px white;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 1.4rem;
+    font-size: 1.0rem;
   }
   .youthsense_copyright{
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     text-align: center;
     color:white;
     padding-bottom: 35px;
