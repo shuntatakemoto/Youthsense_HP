@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.img {
+    position: relative;
+}
+
+.img2 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.img2 img {
+    width: 15%;
+}
+
+
+.sentence1 {
+    margin-top: 15%;
+}
+
+.img1 {
+    background-position: center;
+}
+
+.img1 img {
+    width: 50%;
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+.sentence3 {
+    margin-top: 8%;
+}
+
+.sentence4 {
+    margin-top: 8%;
+}
+
+/* .img {
+    position: relative;
+}
+
+.img2 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.img2 img {
+    width: 15%;
+}
+
+.img3{
+
+}
+
+.img3 img {
+    width: 20%;
+}
+
+.img4{
+
+}
+
+.img4 img {
+    width: 20%;
+}
+
+.img5{
+
+}
+
+.img5 img {
+    width: 30%;
+}
+
+.img6{
+
+}
+
+.img6 img {
+    width: 30%;
+}
+
+.img7 {
+
+}
+
+.img7 img {
+    width: 10%;
+}
+
+.img8 {
+
+}
+
+.img8 img {
+    width: 15%;
+}
+
+.img9 {
+
+}
+
+.img9 img {
+    width: 15%;
+} */
