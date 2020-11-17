@@ -99,6 +99,9 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
 .episode-block {
     padding: 3px;
     margin-bottom: 12px;
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 10%;    
 }
 .episode-block p {
     font-size: 0.8rem;
@@ -107,9 +110,17 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
 span {
     color: #0298D1;
 }
-.start-member, .hare-cloudfunding, .cafe-member, .ab, .plus-youth-image, .goods-base-slide1,
- .goods-base-slide2, .guesthouse-livingroom, .guesthouse-bbq, .self-inquiry-quest, .youth-meshi-presentation {
-    width: 100px;
-    height: 100px;
+.cafe-image, .media-image {
     text-align: center;
+}
+.cafe-member, .plus-youth-image {
+    width: 70%;
+    height: 30vh;
+}
+
+
+.start-member, .hare-cloudfunding, .third-camp-member, .goods-base-slide1,
+ .goods-base-slide2, .guesthouse-livingroom, .guesthouse-bbq, .self-inquiry-quest, .youth-meshi-presentation {
+    width: 200px;
+    height: 200px;
 }
