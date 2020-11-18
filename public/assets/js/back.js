@@ -1,12 +1,25 @@
-$(function () {
-  setTimeout('rect()'); //アニメーションを実行
-});
+var c1 = document.getElementById('area');
+window.addEventListener('load', function(){
+var h = window.innerHeight;
+var style = c1.style;
+style.Height = h + 'px';
+}, false);
+window.addEventListener('resize', function(){
+var h = window.innerHeight;
+var style = c1.style;
+style.Height = h + 'px';
+}, false);
 
-function rect() {
-  $("#rect").animate({
-      top: "-3000px" //要素を動かす位置
-  }, 30000).animate({
-      top: "3000px" //要素を戻す位置
-  }, 0)
-  setTimeout("rect()", 30000);//アニメーションを繰り返す間隔
-}
+
+var d1 = document.getElementById('circles');
+window.addEventListener('load', function(){
+var h = window.innerHeight;
+var style = d1.style;
+style.minHeight = h + 'px';
+}, false);
+window.addEventListener('resize', function(){
+var h = window.innerHeight;
+var style = d1.style;
+style.minHeight = h + 'px';
+}, false);
+
