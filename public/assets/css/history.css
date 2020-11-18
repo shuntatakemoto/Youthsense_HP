@@ -1,4 +1,4 @@
-body {
+/*body {
     width: 100%;
     padding: 0;
     margin: 0;
@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
     height: 24px;
     background-color: #000;
     padding-top: 3px;
-    margin: 0  0 35px;
+    margin: 0 30px;
 }
 .history-title h1{
     font-size: 0.75rem;
@@ -116,15 +116,13 @@ span {
     background-color: rgba(0, 0, 0, 0.7);
     padding-top: 3px;
     text-align: left;
-    margin-bottom: 30px;
-    margin: 0 0 0 auto;
+    margin: 0 0 30px auto
 }
 .tech-twitter-text{
     font-size: 0.75rem;
     color:#fff;
     text-align: center;
 }
-
 .cafe-image, .media-image {
     text-align: center;
 }
@@ -139,17 +137,13 @@ span {
     transform: translateY(-10px);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
-.cafe-start-image, .goods-image, .guesthouse-image {
-    margin: 0 0 0 auto;
-}
-
 .start-member, .hare-cloudfunding, .third-camp-member, .goods-base-slide1,
  .goods-base-slide2, .guesthouse-livingroom, .guesthouse-bbq, .self-inquiry-quest, .youth-meshi-presentation {
-    width: 250px;
-    height: 200px;
+    width: 60%;
+    height: 50%;
+    margin-bottom: 20px;
 }
-
-
-@media screen and (min-width: 768px) {
-
+.hare-cloudfunding, .goods-base-slide2, .guesthouse-livingroom, .youth-meshi-presentation {
+    margin-left: 40%;
 }
+*/
