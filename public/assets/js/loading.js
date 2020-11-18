@@ -1,17 +1,21 @@
 // ページを読み込む前までの経過時間
 var time = new Date().getTime();
 
+if (window.matchMedia('(max-width: 767px)').matches) {
+  
 //全ての読み込みが完了したら実行
 window.onload = function() {
 // ページを読み込んだあとまでの経過時間
   var now = new Date().getTime();
-  if (now-time<5000){
-    setTimeout('stopload()',5000-(now-time));
+  if (now-time<3500){
+    setTimeout('stopload()',3500-(now-time));
   } else{
     stopload();
   }
 }
-
+}else{
+  stopload();
+}
 //10秒たったら強制的にロード画面を非表示させてコンテンツを表示
 setTimeout('stopload()',10000);
 
@@ -23,3 +27,6 @@ function stopload(){
   const content1 = document.getElementById('hide');
   content1.classList.remove('hidden');
 }
+
+
+

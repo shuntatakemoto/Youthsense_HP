@@ -1,10 +1,10 @@
-body {
+/*body {
     width: 100%;
     padding: 0;
     margin: 0;
     font-family: fot-tsukubrdgothic-std;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
 }
 h1,h2,h3,h4,h5,h6,ul,ol,li{
     padding: 0;
@@ -15,10 +15,10 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
     height: 24px;
     background-color: #000;
     padding-top: 3px;
-    margin: 26px 0 35px;
+    margin: 0 30px;
 }
 .history-title h1{
-    font-size: 12px;
+    font-size: 0.75rem;
     color:#fff;
     text-align: center;
 }
@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 .history-icon {
     padding: 5px;
@@ -75,31 +75,75 @@ h1,h2,h3,h4,h5,h6,ul,ol,li{
 }
 
 .episode {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 45px;
+}
+.episode-name {
+    text-align: center;
 }
 .episode-title, .episode-subtitle {
-    text-align: center;
-    font-size: 14px;
-    margin: 0 10%;
+    font-size: 0.85rem;
 
 }
-br {
+.episode-title {
     display: inline-block;
-    color: #000;
-
-
+    border-bottom: 1px solid #000000;
+    padding-bottom: 3px;
 }
+.episode-subtitle {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
 .episode-block {
-    font-size: 13px;
+    padding: 3px;
+    margin-bottom: 12px;
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 10%;    
 }
 .episode-block p {
-    line-height: 1.5;
+    font-size: 0.8rem;
+    line-height: 2;
 }
-
+span {
+    color: #0298D1;
+}
+.tech-twitter-button{
+    width: 236px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 3px;
+    text-align: left;
+    margin: 0 0 30px auto
+}
+.tech-twitter-text{
+    font-size: 0.75rem;
+    color:#fff;
+    text-align: center;
+}
 .cafe-image, .media-image {
     text-align: center;
 }
-img {
-    width: 90px;
-    height: 90px;
+.cafe-member, .plus-youth-image {
+    width: 70%;
+    height: 30vh;
 }
-
+.plus-youth-image {
+    box-shadow: 5px rgba(0, 0, 0, 0.5);
+}
+.plus-youth-image:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.start-member, .hare-cloudfunding, .third-camp-member, .goods-base-slide1,
+ .goods-base-slide2, .guesthouse-livingroom, .guesthouse-bbq, .self-inquiry-quest, .youth-meshi-presentation {
+    width: 60%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+.hare-cloudfunding, .goods-base-slide2, .guesthouse-livingroom, .youth-meshi-presentation {
+    margin-left: 40%;
+}
+*/
