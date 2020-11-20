@@ -6,7 +6,9 @@ body {
     "header header header"
     "left center right"
     "footer footer footer"
-    / 1fr 1fr 1fr;
+    / 1fr;
+      1fr 1fr 1fr;
+      1fr;
 }
 
 .header {
