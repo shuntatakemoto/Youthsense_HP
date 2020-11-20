@@ -173,7 +173,11 @@ header .pc-header{
   margin-left: 35%; 
 }
 .sentence1 img{
-  width:100%;
+  /* width:100%; */
+  width:80%;
+  margin-bottom: 2rem;
+  background-color: #707070;
+  margin-left: 10%;
 }
 .new-sentence1{
   display: none;
@@ -195,6 +199,10 @@ header .pc-header{
 }
 .sentence2{
   text-align: center;
+}
+.sentence2 img{
+  width:60%;
+  margin-bottom: 7.5rem;
 }
 .url2{
   margin-bottom: 15px;
@@ -338,7 +346,8 @@ header .pc-header{
     margin-left: 16%;
   }
   .sentence1-3 img{
-    width:100%;
+    /* width:100%; */
+    width:50%;
   }
   .sentence1-4 img{
     width:40%;
@@ -395,7 +404,7 @@ header .pc-header{
   .sentence2 img{
     width:25%;
     margin-top: 5rem;
-    margin-bottom: 6rem;
+    margin-bottom: 14rem;
   }
   .url2 a img{
     width:20%;
@@ -404,7 +413,7 @@ header .pc-header{
   .url3 a img{
     width:20%;
     margin-left: 70%;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
   .youthsense_footer{
     margin-top: 50px;
@@ -513,7 +522,7 @@ header .pc-header{
     animation-duration: 7s;
   }
   .circles li:nth-child(9){
-    left: 80%;
+    left: 90%;
     /* width: 20px;
     height: 20px; */
     animation-delay: 10s;
