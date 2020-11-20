@@ -1,5 +1,5 @@
 *{
-  margin:0;
+  margin: 0;
   padding:0;
 }
 .youthsense_footer{
@@ -43,4 +43,27 @@
   text-align: center;
   color:white;
   padding-bottom: 35px;
+}
+
+/* pc版 */
+@media (min-width: 1000px)
+{
+  .youthsense_footer{
+    margin-top: 50px;
+    width:100%;
+    background-image: url(/Users/shuntatakemoto/Youthsense_HP/public/assets/img/pc-footer1.png);
+    background-size: cover;
+  }
+  .youthsense_footer ul li{
+    border:solid 0px white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.0rem;
+  }
+  .youthsense_copyright{
+    font-size: 0.6rem;
+    text-align: center;
+    color:white;
+    padding-bottom: 35px;
+  }
 }
