@@ -5,10 +5,8 @@ body {
     grid-template: 
     "header header header"
     "left center right"
-    "footer footer footer"
-    / 1fr;
-      1fr 1fr 1fr;
-      1fr;
+    "footer footer footer"1fr
+    / 1fr 1fr 1fr;
 }
 
 .header {
