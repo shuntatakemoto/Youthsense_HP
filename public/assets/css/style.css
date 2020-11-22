@@ -558,7 +558,7 @@ header .pc-header{
     animation-duration: 7s;
   }
   .circles li:nth-child(5){
-    left: 80%;
+    left: 85%;
     animation-delay: 2s;
     animation-duration: 9s;
   }
