@@ -1,15 +1,40 @@
+h1, h2, h3,h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+} 
+
+
+
+
+
+
+
 .history-title {
-    margin-top: 100px;
-    color: yellow;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 65%;
 }
 .history-title h1 {
     color: #fff;
     background-color: #000;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 
 .history-menu {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-/
+.history-icon  img{
+    padding: 5px;
+    width: 100%;
+    
+}
+.episode-name {
+    text-align: center;
+}
+.episode-name img {
+    width: 50%;
+}
