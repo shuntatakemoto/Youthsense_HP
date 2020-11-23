@@ -8,9 +8,8 @@ h1, h2, h3,h4, h5, h6 {
 
 
 
-
 .history-title {
-    margin-top: 35px;
+    /* margin-top: 35px; */
     margin-bottom: 35px;
     width: 65%;
 }
@@ -38,3 +37,132 @@ h1, h2, h3,h4, h5, h6 {
 .episode-name img {
     width: 50%;
 }
+
+
+
+
+
+
+
+
+
+/* headerのcss */
+*{
+    margin:0px;
+    padding:0px;
+  }
+  .header {
+    width: 100%;
+    top:0px;
+    position: fixed;
+  }
+  .dropdown{
+    position: relative; /* 絶対配置の基準を設定 */
+  }
+  .youthsense_header img{
+    width:45%;
+  }
+  .dropdown__btn{
+    text-align: center;
+    border: solid;
+    border-width:0.5px;
+    box-sizing: border-box;
+    border-color:#707070;
+    width:100%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    display: block;
+    background-color: #FFFFFF;
+  }
+  .youth_menu{
+    width:100%;
+    text-align: center;
+    position: absolute; /* メニュー部分は絶対配置させます */
+    display: none;
+  }
+  .youth_menu li{
+    border: solid;
+    border-width:0.5px;
+    box-sizing: border-box;
+    border-color:#707070;
+    width:100%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-size:0.8rem;
+    background-color: #808080;
+    color:#FFFFFF;
+  }
+  .dropdown__item-link{
+    display: block;
+    text-decoration: none;
+    color:#FFFFFF;
+  }
+  .dropdown__item{
+    display: block;
+  }
+  @keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  .dropdown__btn.is-open + .youth_menu {
+    display: block;
+    z-index: 4;
+    animation-name: fade-in;
+    animation-duration: 0.4s;
+  }
+  .dropdown__btn.is-open::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    cursor: default; /* カーソルはデフォルトに戻しておく */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+  header .pc-header{
+    display: none;
+  }
+  
+  /* pc版 */
+  @media (min-width: 1000px)
+  {
+    .dropdown{
+      display: none;
+    }
+    header .pc-header{
+      display: block;
+      background-color: black;
+      width:100%;
+      height:3.4rem;
+      display: flex;
+      text-align: center;
+    }
+    .pc-header li img{
+      width:50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left:20%;
+    }
+    .pc-header li {
+      width:10%;
+      list-style: none;
+      font-size: 0.8rem;
+    }
+    .pc-header li a{
+      color:white;
+      text-decoration: none;
+      font-weight:100 ;
+    }
+    .pc-header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }  
