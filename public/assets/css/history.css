@@ -1,149 +1,24 @@
-/*body {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    font-family: fot-tsukubrdgothic-std;
-    font-style: normal;
-    font-weight: 500;
+.history-title {
+    margin-top: 100px;
+    color: yellow;
 }
-h1,h2,h3,h4,h5,h6,ul,ol,li{
-    padding: 0;
-    margin: 0;
-}
-.history-title{
-    width: 236px;
-    height: 24px;
-    background-color: #000;
-    padding-top: 3px;
-    margin: 0 30px;
-}
-.history-title h1{
-    font-size: 0.75rem;
-    color:#fff;
-    text-align: center;
-}
-.history-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 25px;
-}
-.history-icon {
-    padding: 5px;
-    margin-bottom: 20px;
-}
-.history-content {
-    width: 90px;
-    height: 90px;
-    background-size: cover;
-    background-position: center;
-    height: 100px;
-}
-.coffee-icon {
-    background-image: url(../img/coffee-bg.jpg);
-}
-.web-icon {
-    background-image: url(../img/web-bg.jpg);
-}
-.media-icon {
-    background-image: url(../img/media-bg.jpg);
-}
-.goods-icon {
-    background-image: url(../img/goods-bg.jpg);
-}
-.guesthouse-icon {
-    background-image: url(../img/guesthouse-bg.jpg);
-}
-.career-icon {
-    background-image: url(../img/career-bg.jpg);
-}
-.history-icon-bg-filter{
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 100px;
-    position: relative;
-}
-.history-icon-bg-filter p {
+.history-title h1 {
     color: #fff;
-    font-family: Bely, serif;
-    font-size: 18px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-
+    background-color: #000;
+    font-size: 0.9rem;
 }
 
-.episode {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 45px;
-}
-.episode-name {
-    text-align: center;
-}
-.episode-title, .episode-subtitle {
-    font-size: 0.85rem;
 
-}
-.episode-title {
-    display: inline-block;
-    border-bottom: 1px solid #000000;
-    padding-bottom: 3px;
-}
-.episode-subtitle {
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
 
-.episode-block {
-    padding: 3px;
-    margin-bottom: 12px;
-    width: 70%;
-    margin-left: 20%;
-    margin-right: 10%;    
+
+
+.history-icon {
+    width: 100px;
+    height: 100pxｆ;
 }
-.episode-block p {
-    font-size: 0.8rem;
-    line-height: 2;
+.history-icon img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-span {
-    color: #0298D1;
-}
-.tech-twitter-button{
-    width: 236px;
-    height: 24px;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding-top: 3px;
-    text-align: left;
-    margin: 0 0 30px auto
-}
-.tech-twitter-text{
-    font-size: 0.75rem;
-    color:#fff;
-    text-align: center;
-}
-.cafe-image, .media-image {
-    text-align: center;
-}
-.cafe-member, .plus-youth-image {
-    width: 70%;
-    height: 30vh;
-}
-.plus-youth-image {
-    box-shadow: 5px rgba(0, 0, 0, 0.5);
-}
-.plus-youth-image:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-.start-member, .hare-cloudfunding, .third-camp-member, .goods-base-slide1,
- .goods-base-slide2, .guesthouse-livingroom, .guesthouse-bbq, .self-inquiry-quest, .youth-meshi-presentation {
-    width: 60%;
-    height: 50%;
-    margin-bottom: 20px;
-}
-.hare-cloudfunding, .goods-base-slide2, .guesthouse-livingroom, .youth-meshi-presentation {
-    margin-left: 40%;
-}
-*/
