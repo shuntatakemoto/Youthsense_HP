@@ -154,6 +154,10 @@ header .dropdown{
   width: 100%;
   position: fixed;
 }
+.header .dropdown{
+  width: 100%;
+  position: fixed;
+}
 
 /* header.css */
 .dropdown{
