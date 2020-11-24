@@ -125,13 +125,14 @@
   .episode-pc-position {
     display: flex;
   }
-  .third-camp-image, .plus-youth-wrapper, .goods-image, .youth-career {
+  .third-camp-image, .plus-youth-wrapper, .goods-image, .guesthouse-image, .youth-career {
     width: 50%;
   }
   .third-camp-member {
-    width: 80%;
-    height: 80%;
-    margin-right: 20%;
+    width: 70%;
+    height: 50%;
+    margin-top: 2rem;
+    margin-left: 20%;
   }
   .episode-pc-text-wrapper {
     width: 45%;
@@ -139,9 +140,7 @@
   .episode2-pc-text, .episode4-pc-text, .episode6-pc-text {
     order: 1;
   }
-  
- 
-  .episode2-pc-text-image, .episode3-pc-text-image, .episode4-pc-text-image, .episode6-pc-text-image img {
+  .episode2-pc-text-image, .episode3-pc-text-image, .episode4-pc-text-image, .episode5-pc-text-image, .episode6-pc-text-image img {
     width: 70%;
   }
   .episode3-pc-text-image {
@@ -149,6 +148,10 @@
   }
   .episode4-pc-text-image {
     margin-top: 2rem;
+  }
+  .episode5-pc-text-image {
+    width: 70%;
+    margin: 20% 0 0 20%;
   }
   .episode6-pc-text-image {
     width: 70%;
@@ -202,6 +205,18 @@
   .episode6-pc-text-wrapper img {
     width: 80%;
   }
+  .guesthouse-livingroom {
+    width: 60%;
+    height: 50%;
+    margin-left: 30%;
+  }
+  .guesthouse-bbq {
+    width: 60%;
+    height: 50%;
+  }
+
+
+
 
 
 
