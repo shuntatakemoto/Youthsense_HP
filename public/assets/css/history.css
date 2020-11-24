@@ -1,13 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-} 
-
-
-
-
-
-
+}
 .history-title {
     margin-top: 5rem;
     margin-bottom: 2rem;
@@ -19,7 +13,6 @@
     font-size: 0.9rem;
     text-align: center;
 }
-
 
 .history-menu {
     display: flex;
@@ -65,6 +58,9 @@
   font-size: 0.9em;
   text-align: center;
 }
+.hare-moveselling {
+  margin-bottom: 1rem;
+}
 .hare-cloudfunding, .goods-base-slide2, .guesthouse-bbq, .self-inquiry-quest {
   width: 60%;
   height: 60%;
@@ -78,6 +74,11 @@
 .start-member, .goods-base-slide1, .guesthouse-livingroom, .youth-meshi-presentation {
   width: 65%;
   margin-left: 35%;
+}
+
+/* pc用 */
+@media screen and (min-width: 768px) {
+
 }
 
 
