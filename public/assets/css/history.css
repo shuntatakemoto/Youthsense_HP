@@ -58,17 +58,20 @@
   font-size: 0.9em;
   text-align: center;
 }
-.hare-moveselling {
+.plus-youth-link-lead-text {
+  text-align: center;
+}
+.hare-moveselling, .media-image {
   margin-bottom: 1rem;
 }
-.hare-cloudfunding, .goods-base-slide2, .guesthouse-bbq, .self-inquiry-quest {
+.hare-cloudfunding, ., .goods-base-slide2, .guesthouse-bbq, .self-inquiry-quest {
   width: 60%;
   height: 60%;
 }
-.cafe-image, .media-image, .third-camp-image {
+.cafe-image, .media-image, .plus-youth-link-lead-text, .third-camp-image {
   text-align: center;
 }
-.cafe-member, .third-camp-member, .plus-youth-image {
+.cafe-member, .third-camp-member, .plus-youth-image, .plus-youth-lead-text {
   width: 80%;
 }
 .start-member, .goods-base-slide1, .guesthouse-livingroom, .youth-meshi-presentation {
