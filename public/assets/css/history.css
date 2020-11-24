@@ -142,24 +142,31 @@
   .plus-youth-wrapper {
     width: 45%;
   }
-  .episode2-pc-text-image, .episode4-pc-text-image img {
+  .episode2-pc-text-image, .episode4-pc-text-image, .episode6-pc-text-image img {
     width: 40%;
+  }
+  ..episode6-pc-text-image {
+    width: 50%;
   }
   .episode3-pc-text-image img {
     width: 80%;
   }
-  .episode4-pc-text {
+  .episode4-pc-text-image {
     margin-top: 2rem;
   }
-  .goods-image {
+  .episode6-pc-text-image {
+    margin-top: 4rem;
+  }
+  .goods-image, .youth-career {
     padding: 5px;
   }
-  .goods-base-slide1 {
+  .goods-base-slide1, .self-inquiry-quest {
     width: 60%;
     height: 45%;
     margin-bottom: 1rem;
+    margin-left: 35%;
   }
-  .goods-base-slide2 {
+  .goods-base-slide2, .youth-meshi-presentation {
     width: 60%;
     height: 50%;
     margin-left: 20%;
@@ -181,14 +188,7 @@
   .episode6-pc-text-wrapper img {
     width: 80%;
   }
-  .self-inquiry-quest {
-    width: 30%;
-    margin-right: 30%;
-  }
-  .youth-meshi-presentation {
-    width: 30%;
-    margin: 0;
-  }
+
 
 
 
