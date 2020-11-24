@@ -64,7 +64,7 @@
 .hare-moveselling, .media-image {
   margin-bottom: 1rem;
 }
-.hare-cloudfunding, ., .goods-base-slide2, .guesthouse-bbq, .self-inquiry-quest {
+.hare-cloudfunding, .goods-base-slide2, .guesthouse-bbq, .self-inquiry-quest {
   width: 60%;
   height: 60%;
 }
@@ -81,7 +81,18 @@
 
 /* pc用 */
 @media screen and (min-width: 768px) {
-
+  .history-title {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width: 40%;
+  }
+  .history-title h1 {
+    color: #fff;
+    background-color: #000;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
 }
 
 
