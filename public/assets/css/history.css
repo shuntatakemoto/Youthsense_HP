@@ -74,7 +74,7 @@
   width: 60%;
   height: 60%;
 }
-.cafe-image, .media-image, .plus-youth-link-lead-text, .third-camp-image {
+.cafe-image, .plus-youth-link-lead-text, .third-camp-image {
   text-align: center;
 }
 .cafe-member, .third-camp-member, .plus-youth-image, .plus-youth-lead-text {
@@ -83,6 +83,10 @@
 .start-member, .goods-base-slide1, .guesthouse-livingroom, .youth-meshi-presentation {
   width: 65%;
   margin-left: 35%;
+}
+.plus-youth-image {
+  border: 1px solid #000;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, .7);
 }
 
 /* pc用 */
@@ -112,13 +116,16 @@
     padding: 0.5rem;
     margin-bottom: 5rem;
   }
+  .episode-name {
+    margin-bottom: 2rem;
+  }
   .episode-name img {
-    width: 15%;
+    width: 25%;
   }
   .episode-pc-position {
     display: flex;
   }
-  .third-camp-image, .media-image, .plus-youth-link-lead-text, .goods-image, .youth-career {
+  .third-camp-image, .plus-youth-wrapper, .goods-image, .youth-career {
     width: 50%;
   }
   .third-camp-member {
@@ -126,36 +133,43 @@
     height: 80%;
     margin-right: 20%;
   }
-  .plus-youth-image, .plus-youth-lead-text {
-    width: 80%;
-
-  }
   .episode-pc-text-wrapper {
     width: 45%;
   }
   .episode2-pc-text, .episode4-pc-text, .episode6-pc-text {
     order: 1;
   }
-  .episode3-pc-text-position {
-    width: 50%;
+  
+ 
+  .episode2-pc-text-image, .episode3-pc-text-image, .episode4-pc-text-image, .episode6-pc-text-image img {
+    width: 70%;
   }
-  .plus-youth-wrapper {
-    width: 45%;
-  }
-  .episode2-pc-text-image, .episode4-pc-text-image, .episode6-pc-text-image img {
-    width: 40%;
-  }
-  ..episode6-pc-text-image {
-    width: 50%;
-  }
-  .episode3-pc-text-image img {
-    width: 80%;
+  .episode3-pc-text-image {
+    margin-left: 35%;
   }
   .episode4-pc-text-image {
     margin-top: 2rem;
   }
   .episode6-pc-text-image {
+    width: 70%;
     margin-top: 4rem;
+  }
+  .plus-youth-wrapper {
+    width: 50%;
+  }
+  .media-image {
+    padding: 3px;
+    width: 80%;
+    margin-left: 15%;
+  }
+  .media-image img {
+    margin: 0 auto;
+  }
+  .plus-youth-link-lead-text {
+    margin: 0 auto;
+  }
+  .plus-youth-link-lead-text img {
+    width: 50%;
   }
   .goods-image, .youth-career {
     padding: 5px;
