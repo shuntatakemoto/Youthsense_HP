@@ -20,6 +20,9 @@
     justify-content: space-evenly;
     margin-bottom: 3.5rem;
 }
+.history-icon {
+  margin: 0px 1rem 1rem 1rem;
+}
 .history-icon  img{
     padding: 3px;
     width: 100%;
@@ -80,19 +83,82 @@
 }
 
 /* pc用 */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
   .history-title {
     margin-top: 5rem;
     margin-bottom: 2rem;
+    background-color: #000;
     width: 40%;
   }
   .history-title h1 {
     color: #fff;
-    background-color: #000;
     font-size: 1rem;
     text-align: center;
   }
-  
+  .history-menu{
+    margin: 0 auto;
+  }
+  .history-icon {
+    padding: 30px;
+  }
+  .history-icon img {
+    width: 135%;
+    padding: 5px;
+  }
+  .episode-name img {
+    width: 15%;
+  }
+  .episode-pc-position {
+    display: flex;
+  }
+  .third-camp-image, .media-image, .plus-youth-link-lead-text {
+    width: 50%;
+  }
+  .third-camp-member {
+    width: 80%;
+    height: 80%;
+    margin-right: 20%;
+  }
+  .plus-youth-image, .plus-youth-lead-text {
+    width: 80%;
+
+  }
+  .episode-pc-text-wrapper {
+    width: 45%;
+  }
+  .episode2-pc-text {
+    order: 1;
+  }
+  .episode3-pc-text-position {
+    width: 50%;
+  }
+  .plus-youth-wrapper {
+    width: 45%;
+  }
+  .episode2-pc-text-image img {
+    width: 40%;
+  }
+  .episode3-pc-text-image img {
+    width: 80%;
+  }
+  .tech-twitter-button {
+    width: 50%;
+    padding: 2px;
+    margin-bottom: 1.5rem;
+    margin-left: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
