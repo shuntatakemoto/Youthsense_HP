@@ -149,7 +149,8 @@ footer{
 
     .only-mobile-logo1 img {
         width: 60%;
-        margin-top: 35%;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
     }
 
     .only-mobile-logo2 {
