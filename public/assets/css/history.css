@@ -19,13 +19,15 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 3.5rem;
+    text-align: center;
 }
 .history-icon {
-  margin: 0px 1rem 1rem 1rem;
+  /* margin: 0px 1rem 1rem 1rem; */
+  margin-bottom: 1rem;
 }
 .history-icon  img{
     padding: 3px;
-    width: 100%;
+    width: 80%;
 }
 .episode {
   padding-bottom: 5px;
@@ -93,8 +95,36 @@
   box-shadow: 3px 3px 3px rgba(0, 0, 0, .7);
 } 
 
+/* ページ内リンクのずれ防止 */
+.episode-name {
+  padding-top: 3.4rem;
+  margin-top: 3.4rem;
+}
+.coffee-start-image img{
+  margin-top: 4rem;
+  box-shadow: -2rem -0.5rem 0px 10px rgb(107, 62, 41);
+}
+.third-camp-image img{
+  box-shadow: 0.6rem -0.5rem 0px 10px rgb(255, 232, 80);
+  margin-right: 25%;
+  margin-top: 2rem;
+}
+.media-image{
+  text-align: center;
+}
+.goods-base-slide2{
+  margin-top: 2rem;
+}
+.guesthouse-bbq{
+  margin-top: 1.5rem;
+}
+
+
 /* pc用 */
 @media screen and (min-width: 1000px) {
+  .history-icon {
+    margin:0;
+  }
   .history-title {
     margin-top: 5rem;
     margin-bottom: 4rem;
@@ -122,7 +152,8 @@
     margin-bottom: 5rem;
   }
   .episode-name {
-    margin-bottom: 2rem;
+    margin-bottom: 10rem;
+
   }
   .episode-name img {
     width: 25%;
@@ -133,11 +164,38 @@
   .third-camp-image, .plus-youth-wrapper, .goods-image, .guesthouse-image, .youth-career {
     width: 50%;
   }
+  .coffee-start-image img{
+    box-shadow: 4rem 5rem 0px 10px rgb(255, 188, 188);
+  }
+  .third-camp-image img{
+    box-shadow: 40px -100px 0px 10px rgb(255, 232, 80);
+    margin-top: 10rem;
+  }
+  .media-image a img{
+    box-shadow: 40px -60px 0px 10px rgb(46, 73, 161);
+  }
+  .goods-base-slide1{
+    box-shadow: -250px -20px 0px 10px rgb(159, 221, 233);
+  }
+  .goods-base-slide2{
+    margin-top: 4.5rem;
+    box-shadow: 2rem -5.2rem 0px 10px rgb(159, 221, 233);
+  }
+  .guesthouse-livingroom{
+    box-shadow: 4rem 2rem 0px 10px rgb(199, 149, 204);
+    margin-bottom: 2rem;
+  }
+  .guesthouse-bbq{
+    z-index: -1;
+    box-shadow: 4rem -1.8rem 0px 10px rgb(199, 149, 204);
+  }
+
   .third-camp-member {
     width: 70%;
     height: 50%;
     margin-top: 2rem;
-    margin-left: 20%;
+    /* margin-left: 20%; */
+    margin-right: 35%;
   }
   .episode-pc-text-wrapper {
     width: 45%;
@@ -145,7 +203,12 @@
   .episode1-secondary-pc-text, .episode2-pc-text, .episode4-pc-text, .episode6-pc-text {
     order: 1;
   }
-  .episode1-pc-text-image, .episode2-pc-text-image, .episode3-pc-text-image, .episode4-pc-text-image, .episode5-pc-text-image, .episode6-pc-text-image img {
+  .episode2-pc-text-image img{
+    width:50%;
+    /* margin-left: 10%; */
+    margin-bottom: 5rem;
+  }
+  .episode1-pc-text-image, .episode3-pc-text-image, .episode4-pc-text-image, .episode5-pc-text-image, .episode6-pc-text-image img {
     width: 70%;
   }
   .episode1-first {
