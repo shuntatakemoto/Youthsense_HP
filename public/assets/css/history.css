@@ -61,7 +61,7 @@
   font-size: 0.9em;
   text-align: center;
 }
-.sns-instagram {
+.cafe-open-ceremony, .sns-instagram {
   display: none;
 }
 .plus-youth-link-lead-text {
@@ -88,12 +88,16 @@
   border: 1px solid #000;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, .7);
 }
+.coffee-icon, .web-icon, .media-icon, .goods-icon, .guesthouse-icon, .career-icon {
+  border: .5px solid #000;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, .7);
+} 
 
 /* pc用 */
 @media screen and (min-width: 1000px) {
   .history-title {
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     background-color: #000;
     width: 40%;
   }
@@ -103,15 +107,16 @@
     text-align: center;
   }
   .history-menu{
-    margin: 0 auto;
+    margin: 0 auto 8rem auto;
   }
   .history-icon {
-    padding: 30px;
+    padding: 20px;
   }
   .history-icon img {
     width: 135%;
     padding: 5px;
   }
+
   .episode {
     padding: 0.5rem;
     margin-bottom: 5rem;
@@ -137,11 +142,49 @@
   .episode-pc-text-wrapper {
     width: 45%;
   }
-  .episode2-pc-text, .episode4-pc-text, .episode6-pc-text {
+  .episode1-secondary-pc-text, .episode2-pc-text, .episode4-pc-text, .episode6-pc-text {
     order: 1;
   }
-  .episode2-pc-text-image, .episode3-pc-text-image, .episode4-pc-text-image, .episode5-pc-text-image, .episode6-pc-text-image img {
+  .episode1-pc-text-image, .episode2-pc-text-image, .episode3-pc-text-image, .episode4-pc-text-image, .episode5-pc-text-image, .episode6-pc-text-image img {
     width: 70%;
+  }
+  .episode1-first {
+    margin-bottom: 1.5rem;
+  }
+  .episode1-first-image-wrapper {
+    width: 50%;
+  }
+  .start-member {
+    width: 90%;
+    margin-left: 0;
+    margin-bottom: 4rem;
+  }
+  .hare-cloudfunding {
+    width: 50%;
+    margin-left: 5%;
+  }
+  .episode1-pc-text-image {
+    margin-left: 25%;
+  }
+  .episode1-secondary-text {
+    margin-left: 0;
+  }
+  .cafe-open-ceremony {
+    display: block;
+    width: 40%;
+    height: 5%;
+    margin-left: 30%;
+  }
+  .cafe-member {
+    width: 30%;
+  }
+  .cafe-image {
+    width: 60%;
+    margin-left: 5%;
+  }
+  .cafe-image img {
+    width: 80%;
+    margin-top: 12%;
   }
   .episode3-pc-text-image {
     margin-left: 35%;
