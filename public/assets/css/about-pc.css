@@ -4,13 +4,15 @@ body {
     display: grid;
     grid-template: 
     "header header header"
+    "mobile-center mobile-center mobile-center" 
     "left center right"
     "footer footer footer"
     / 1fr 1fr 1fr;
 }
 
-.header {
+header {
     grid-area: header;
+    margin-bottom: 5rem;
 }
 
 .only-mobile-logo1 {
@@ -22,9 +24,15 @@ body {
 }
 
 .f1-pc {
-    width: 70%;
-    margin-top: 25%;
-    margin-left: 15%;
+    width: 60%;
+    margin: 0 auto;
+}
+.f1-pc img{
+    margin-top: 15rem;
+    margin-bottom: 20rem;
+}
+.mobile-center{
+    grid-area: mobile-center;
 }
 
 .f1-mobile {
@@ -41,24 +49,24 @@ body {
 }
 
 .img1 img {
-    width:40%;
-    margin-top: 30%;
-    margin-bottom: 15%;
+    width:30%;
+    /* margin-top: 30%; */
+    margin-bottom: 6rem;
 }
 
 .left {
     grid-area: left;
-    margin-top: -20%;
+    /* margin-top: -20%; */
 }
 
 .center {
     grid-area: center;
-    margin-top: -20%;
+    /* margin-top: -20%; */
 }
 
 .right {
     grid-area: right;
-    margin-top: -20%;
+    /* margin-top: -20%; */
 }
 
 .img2 img {
@@ -104,6 +112,9 @@ body {
     width: 70%;
     margin-top: 35%;
 } 
+footer{
+    grid-area: footer;
+}
 
 @media only screen and (max-width: 959px) {
 
@@ -114,11 +125,17 @@ body {
         display: grid;
         grid-template:
         "header"
+        "mobile-center"
         "center"
         "left"
-        "right" ;
+        "right"
+        "footer" ;
     }
-
+    .header {
+        grid-area: header;
+        position: fixed;
+        width:100%;
+    }
     .right {
         margin-top: 0%;
     }
@@ -132,7 +149,7 @@ body {
 
     .only-mobile-logo1 img {
         width: 60%;
-        margin-top: 20%;
+        margin-top: 35%;
     }
 
     .only-mobile-logo2 {
@@ -227,5 +244,8 @@ body {
     .img8 {
         display: none;
     }
-
+    /* .header{
+        width:100%;
+        position: fixed;
+    } */
 }
