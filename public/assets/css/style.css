@@ -494,7 +494,8 @@ header .pc-header{
   .youthsense_footer{
     margin-top: 50px;
     width:100%;
-    background-image: url(/Users/shuntatakemoto/Youthsense_HP/public/assets/img/pc-footer1.png);
+    /* background-image: url(/Users/shuntatakemoto/Youthsense_HP/public/assets/img/pc-footer1.png); */
+    background-image: url(/assets/img/pc-footer1.png);
     background-size: cover;
   }
   .youthsense_footer ul li{
