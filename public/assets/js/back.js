@@ -1,12 +1,37 @@
-$(function () {
-  setTimeout('rect()'); //アニメーションを実行
-});
-
-function rect() {
-  $("#rect").animate({
-      top: "-3000px" //要素を動かす位置
-  }, 30000).animate({
-      top: "3000px" //要素を戻す位置
-  }, 0)
-  setTimeout("rect()", 30000);//アニメーションを繰り返す間隔
+// px単位をrem単位に変換する 
+// var h = window.innerHeight;
+const convertRemToPx = function (h) {
+  var fontSize = getComputedStyle(document.documentElement).fontSize;
+  return h / parseFloat(fontSize);
 }
+
+// areaの高さを指定
+var c1 = document.getElementById('area');
+window.addEventListener('load', function(){
+var h = window.innerHeight;
+var H = convertRemToPx(h);
+var style = c1.style;
+style.minHeight = H-3.4  + 'rem';
+}, false);
+window.addEventListener('resize', function(){
+var h = window.innerHeight;
+var H = convertRemToPx(h);
+var style = c1.style;
+style.minHeight = H-3.4 + 'rem';
+}, false);
+
+// circlesの高さを指定
+var d1 = document.getElementById('circles');
+window.addEventListener('load', function(){
+var h = window.innerHeight;
+var H = convertRemToPx(h);
+var style = d1.style;
+style.minHeight = H-3.4 + 'rem';
+}, false);
+window.addEventListener('resize', function(){
+var h = window.innerHeight;
+var H = convertRemToPx(h);
+var style = d1.style;
+style.minHeight = H-3.4 + 'rem';
+}, false);
+
